@@ -10,8 +10,8 @@
 @syntax-background-color: @very-light-pink;
 
 // Guide colors
-@syntax-wrap-guide-color: @purple;
-@syntax-indent-guide-color: @purple;
+@syntax-wrap-guide-color: @gray;
+@syntax-indent-guide-color: @gray;
 @syntax-invisible-character-color: @purple;
 
 // For find and replace markers
@@ -37,7 +37,7 @@
 @syntax-color-property: @orange;
 @syntax-color-value: @red;
 @syntax-color-function: @orange;
-@syntax-color-method: @syntax-color-function;
+@syntax-color-method: lighten(@syntax-color-function,10%);
 @syntax-color-class: @orange;
 @syntax-color-keyword: @red;
 @syntax-color-tag: @red;
